@@ -19,7 +19,7 @@ if [ -n "$SEARCH_QUERY" ]; then
 
     # Open the selected file in the text editor if a file was selected
     if [ -n "$SELECTED_FILE" ]; then
-        vim "$SELECTED_FILE"  # Replace 'gedit' with your preferred text editor
+        xed "$SELECTED_FILE"  # Replace 'gedit' with your preferred text editor
     fi
 fi
 
